@@ -24,6 +24,10 @@ Systematic study notes for FPGA/EDA research, including placement, timing-driven
 
 - [PACT 项目学习笔记](Projects/PACT/README.md) — Day1–Day7，共 7 份 HTML 笔记，覆盖工具后端、证据与决策、优化技能、候选搜索、算子改写和提交验证。
 
+## Skills｜可复用技能
+
+- [论文精读与图解笔记](Skills/study-papers-with-figures/README.md) — 中文循序讲解、原图与子图覆盖核对、学术风格 LaTeX PDF；含模板与原图处理脚本。
+
 ## 归档约定
 
 每篇论文采用 `Papers/<Topic>/<Paper>/` 目录，包含 `README.md`、原文 `Paper.pdf` 和已有的编号学习笔记。主题目录使用英文，README 提供中文导航。PDF 保留原始内容，论文元信息以原文为依据。
