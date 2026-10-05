@@ -11,6 +11,10 @@ Systematic study notes for FPGA/EDA research, including placement, timing-driven
 | [hMETIS — Multilevel Hypergraph Partitioning (TVLSI 1999)](Papers/Partitioning/hMETIS/README.md) | [PDF](Papers/Partitioning/hMETIS/Paper.pdf) | 01–06，共六份 |
 | [FPGA Multi-Resource Partitioning](Papers/Partitioning/FPGA-Multi-Resource-Partitioning/README.md) | [PDF](Papers/Partitioning/FPGA-Multi-Resource-Partitioning/Paper.pdf) | 待补充 |
 
+### Placement｜布局基础
+
+- [ePlace：静电场密度模型与解析布局（TODAES 2015）](Papers/Placement/ePlace/README.md) — [完整七天 PDF（43 页）](Papers/Placement/ePlace/ePlace_完整七天学习笔记.pdf)，含 7 份分天笔记。
+
 ### Macro Placement｜宏布局
 
 - [AMF-Placer (ICCAD 2021)](Papers/Macro-Placement/AMF-Placer_ICCAD2021/README.md)
