@@ -1,0 +1,54 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[left=25mm,right=25mm,top=24mm,bottom=24mm,headheight=18pt]{geometry}
+\usepackage{fontspec}
+\IfFileExists{paper-fonts.tex}{\input{paper-fonts.tex}}{%
+  \IfFontExistsTF{Noto Serif CJK SC}{%
+    \setmainfont{Noto Serif CJK SC}\setsansfont{Noto Sans CJK SC}%
+  }{\IfFontExistsTF{FandolSong-Regular}{%
+    \setmainfont{FandolSong-Regular}[BoldFont=FandolSong-Bold]%
+    \setsansfont{FandolHei-Regular}%
+  }{\PackageError{paper-notes}{Chinese font unavailable}{Provide paper-fonts.tex with installed CJK fonts.}}}%
+}
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip=0pt plus 1pt
+\usepackage{amsmath,amssymb,graphicx,xcolor,fancyhdr,booktabs,caption,hyperref,tikz}
+\usetikzlibrary{arrows.meta,positioning,calc}
+\definecolor{navy}{HTML}{17324D}
+\definecolor{blue}{HTML}{2D526B}
+\definecolor{warm}{HTML}{9A6542}
+\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue}
+\renewcommand{\figurename}{图}
+\renewcommand{\tablename}{表}
+\renewcommand{\contentsname}{阅读导航}
+\captionsetup{font=small,labelfont=bf,labelsep=quad,skip=6pt}
+\setlength{\parindent}{0pt}\setlength{\parskip}{6pt}
+\setlength{\emergencystretch}{2em}\linespread{1.23}
+\pagestyle{fancy}\fancyhf{}
+\newcommand{\PaperTitle}{论文题名}
+\newcommand{\LectureTitle}{第一讲：问题与方法地图}
+\fancyhead[L]{\footnotesize\sffamily\PaperTitle}
+\fancyhead[R]{\footnotesize\sffamily\LectureTitle}
+\fancyfoot[C]{\footnotesize\thepage}
+\renewcommand{\headrulewidth}{.35pt}
+\newcommand{\SourceNote}[1]{\par{\footnotesize\color{blue}\textbf{文献定位}\quad #1}\par}
+\begin{document}
+\begin{center}
+{\LARGE\bfseries\color{navy}\PaperTitle}\par
+{\large\LectureTitle}\par
+{\small 中文论文研读讲义}
+\end{center}
+\section{先认识问题}
+写明研究对象、当前失败、前一方法缺口与本讲学习目标。
+\section{把对象和公式连起来}
+先定义变量，再解释任务、依赖方向与数值例子。
+\begin{equation}f(\mathbf x)=W(\mathbf x)+\lambda N(\mathbf x).\end{equation}
+此式仅为模板示例，根据实际论文替换。
+\SourceNote{原论文章节、公式编号与 PDF 物理页码。}
+% Insert confirmed crop with source caption and Chinese interpretation.
+% \begin{figure}[htbp]\centering
+% \includegraphics[width=.98\linewidth]{figures/fig01.pdf}
+% \caption{原文 Fig. 1：中文标题。来源：论文 PDF 第 N 页。}
+% \end{figure}
+\section{原图研读}
+先看对象与图例，再看变化，最后联系公式和实验配置。
+\end{document}
