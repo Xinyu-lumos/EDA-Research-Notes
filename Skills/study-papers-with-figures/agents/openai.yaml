@@ -1,0 +1,14 @@
+interface:
+  display_name: 论文精读与图解笔记
+  short_description: 中文循序精读论文，覆盖原图与子图，生成学术风格 LaTeX PDF 学习笔记
+  default_prompt: 使用 $study-papers-with-figures 带领我学习这篇论文，循序讲解，尽量覆盖原图与子图，并整理成学术风格的中文
+    LaTeX PDF。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
