@@ -7,7 +7,7 @@ Jingwei Lu et al. · ACM TODAES · 2015
 
 ## 完整学习笔记
 
-[完整七天合订本（43 页）](ePlace_完整七天学习笔记.pdf) · [Notion 学习条目](https://app.notion.com/p/3a7106e3498e814d9ef2e356f3e95b1e)
+[完整七天合订本（44 页）](ePlace_完整七天学习笔记.pdf) · [Notion 学习条目](https://app.notion.com/p/3a7106e3498e814d9ef2e356f3e95b1e)
 
 中文 LaTeX 学术讲义，包含教学图解、公式推导和实验解读。建议按第 1—7 天顺序阅读；合订本带目录与书签。
 
@@ -16,7 +16,7 @@ Jingwei Lu et al. · ACM TODAES · 2015
 | 天数 | 主题 | 页数 |
 |---|---|---|
 | 第 1 天 | [布局问题与静电模型直觉](ePlace_Day01_学习笔记.pdf) | 8 |
-| 第 2 天 | [HPWL 与 WA 平滑线长](ePlace_Day02_学习笔记.pdf) | 7 |
+| 第 2 天 | [HPWL、WA 与 LSE 平滑线长](ePlace_Day02_学习笔记.pdf) | 8 |
 | 第 3 天 | [eDensity：面积电荷与密度力](ePlace_Day03_学习笔记.pdf) | 5 |
 | 第 4 天 | [泊松方程与边界条件](ePlace_Day04_学习笔记.pdf) | 5 |
 | 第 5 天 | [FFT 与谱方法求场](ePlace_Day05_学习笔记.pdf) | 5 |

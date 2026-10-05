@@ -13,7 +13,7 @@ Systematic study notes for FPGA/EDA research, including placement, timing-driven
 
 ### Placement｜布局基础
 
-- [ePlace：静电场密度模型与解析布局（TODAES 2015）](Papers/Placement/ePlace/README.md) — [完整七天 PDF（43 页）](Papers/Placement/ePlace/ePlace_完整七天学习笔记.pdf)，含 7 份分天笔记。
+- [ePlace：静电场密度模型与解析布局（TODAES 2015）](Papers/Placement/ePlace/README.md) — [完整七天 PDF（44 页）](Papers/Placement/ePlace/ePlace_完整七天学习笔记.pdf)，含 7 份分天笔记。
 
 ### Macro Placement｜宏布局
 
